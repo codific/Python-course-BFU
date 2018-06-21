@@ -22,9 +22,11 @@ The columns in the file are as follows:
 Example output:
 
 ```text
-Zip code: 95614; Total: 300000
-Zip code: 95655; Total: 237800
-Zip code: 95722; Total: 230000
-Zip code: 95619; Total: 216033
-Zip code: 95631; Total: 194818
+Zip code: 95757; Total: 12180045
+Zip code: 95762; Total: 11309076
+Zip code: 95823; Total: 10689826
+Zip code: 95835; Total: 10222209
+Zip code: 95758; Total: 10206647
 ```
+
+Sample solution: [here](./real_estates.py).
