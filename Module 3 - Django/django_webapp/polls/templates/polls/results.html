@@ -1,0 +1,7 @@
+<h4>{{ poll.question }}</h4>
+
+<ul>
+    {% for choice in poll.choice_set.all %}
+        <li>Total votes for {{ choice.choice_text }} - {{ choice.votes }}.</li>
+    {% endfor %}
+</ul>

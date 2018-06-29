@@ -1,0 +1,20 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+          type="text/css"
+          href="{% static 'polls/style.css' %}">
+    {% block customcss %}{% endblock %}
+    <title>{% block title %}Home{% endblock %}</title>
+</head>
+<body>
+    <p>Base p</p>
+    {% block content %}
+    {% endblock %}
+    <!-- Example js include -->
+    <script src="/jquery.min.js" />
+    {% block customjs %}{% endblock %}
+</body>
+</html>
