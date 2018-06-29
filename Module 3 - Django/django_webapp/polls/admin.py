@@ -23,6 +23,10 @@ class PollAdmin(admin.ModelAdmin):
     inlines = [ChoiceInline]
     list_per_page = 2
 
+    # Making fields readonly
+    def get_readonly_fields(self, request, obj=None):
+        return ('pub_date', )
+
 
 admin.site.register(Poll, PollAdmin)
 admin.site.register(Choice)

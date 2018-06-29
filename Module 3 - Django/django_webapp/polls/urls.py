@@ -1,5 +1,5 @@
 from django.urls import path
-
+from django.conf.urls import url
 from . import views
 
 app_name = 'polls'
@@ -11,5 +11,5 @@ urlpatterns = [
     # site.com/1/results
     path('<int:poll_id>/results/', views.results, name='results'),
     # site.com/1/vote
-    path('<int:poll_id>/vote/', views.vote, name='vote')
+    path('<int:poll_id>/vote/', views.vote, name='vote'),
 ]

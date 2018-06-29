@@ -16,4 +16,9 @@
     {% else %}
         <p>No polls are currently available.</p>
     {% endif %}
+
+    {% include './partial.html' with polls=polls polls_two=polls %}
 {% endblock %}
+
+
+

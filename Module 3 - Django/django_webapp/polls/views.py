@@ -3,9 +3,9 @@ from django.http import HttpResponse, Http404, HttpResponseRedirect
 from django.urls import reverse
 from .models import Poll
 from django.db.models import F
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
-
 
 def index(request):
     polls = Poll.objects.all()
