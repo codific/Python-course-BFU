@@ -12,10 +12,6 @@ Write a function that returns the sum of arbitrary sequence of numbers.
 
 Write a function that accepts a number and returns two values - the whole part of the number and the fraction.
 
-## 4. Sort a list
-
-Write a function that sorts a multidimensional list. The function should accept two parameters: list that must be sorted and key by which the list elements will be sorted.
-
-## 5. Top N
+## 4. Top N
 
 Write a function that returns the first N elements from a given list.
